@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build-native/
+native-inspect/
+native-run/
+*.deb
+.DS_Store
