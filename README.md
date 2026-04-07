@@ -38,7 +38,7 @@ still here for reference, but the native script is the one to use.
 The build expects local Electron tooling in this folder:
 
 ```bash
-cd /home/johnohhh1/chatgpt-windows-deb
+cd ~/chatgpt-windows-deb
 npm install electron @electron/asar --no-save
 ```
 
@@ -51,7 +51,7 @@ sudo apt-get install -y dpkg-dev nodejs python3 file
 ## Build
 
 ```bash
-cd /home/johnohhh1/chatgpt-windows-deb
+cd ~/chatgpt-windows-deb
 ./build-chatgpt-native-deb.sh --exe ./OpenAI.ChatGPT-Desktop_2026.212.2039.0.Msixbundle
 ```
 
